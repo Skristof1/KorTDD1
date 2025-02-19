@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KorTDD1", "KorTDD1\KorTDD1.csproj", "{B5CA42B3-6059-4181-BD20-A9BBD4B6BB57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KorTDD_Test", "KorTDD_Test\KorTDD_Test.csproj", "{0647C8AB-59E0-419A-8DB8-DE4C75586255}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5CA42B3-6059-4181-BD20-A9BBD4B6BB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CA42B3-6059-4181-BD20-A9BBD4B6BB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CA42B3-6059-4181-BD20-A9BBD4B6BB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CA42B3-6059-4181-BD20-A9BBD4B6BB57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0647C8AB-59E0-419A-8DB8-DE4C75586255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0647C8AB-59E0-419A-8DB8-DE4C75586255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0647C8AB-59E0-419A-8DB8-DE4C75586255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0647C8AB-59E0-419A-8DB8-DE4C75586255}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {706AFAE9-6C15-4847-90C8-B3F461661E12}
+	EndGlobalSection
+EndGlobal
