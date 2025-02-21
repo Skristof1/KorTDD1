@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KorTDD1", "KorTDD1\KorTDD1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KorTDD_Test", "KorTDD_Test\KorTDD_Test.csproj", "{0647C8AB-59E0-419A-8DB8-DE4C75586255}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PontHatOOP_", "PontHatOOP_\PontHatOOP_.csproj", "{97531022-C349-4AB5-8964-C31719FC55AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PontHat_UnitTest", "PontHat_UnitTest\PontHat_UnitTest.csproj", "{206BD7B0-8FA8-4FDB-AC31-762F1CF014AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0647C8AB-59E0-419A-8DB8-DE4C75586255}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0647C8AB-59E0-419A-8DB8-DE4C75586255}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0647C8AB-59E0-419A-8DB8-DE4C75586255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97531022-C349-4AB5-8964-C31719FC55AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97531022-C349-4AB5-8964-C31719FC55AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97531022-C349-4AB5-8964-C31719FC55AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97531022-C349-4AB5-8964-C31719FC55AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{206BD7B0-8FA8-4FDB-AC31-762F1CF014AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206BD7B0-8FA8-4FDB-AC31-762F1CF014AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206BD7B0-8FA8-4FDB-AC31-762F1CF014AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206BD7B0-8FA8-4FDB-AC31-762F1CF014AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
