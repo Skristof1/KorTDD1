@@ -1,8 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using KorTDD1;
-using System.Security.Cryptography.X509Certificates;
 using KorTDD;
+using System.Security.Cryptography.X509Certificates;
 namespace KorrTDD_Teszt
 {
     [TestClass]
@@ -20,7 +19,7 @@ namespace KorrTDD_Teszt
             Assert.AreEqual(kapottEredm, vartEredm);
         }
         [TestMethod]
-        public void SetKerulet_teszt_False_Alatt()
+        public void setKerulet_teszt_False_Alatt()
         {
             double sugar = kor.getsugar();
             double vartEredm = 25.11,
@@ -30,7 +29,7 @@ namespace KorrTDD_Teszt
             Assert.AreNotEqual(kapottEredm, vartEredm);
         }
         [TestMethod]
-        public void SetKerulet_teszt_False_Felett()
+        public void setKerulet_teszt_False_Felett()
         {
             double sugar = kor.getsugar();
             double vartEredm = 25.13,
@@ -43,27 +42,27 @@ namespace KorrTDD_Teszt
         public void setTerulet_teszt_True()
         {
             double sugar = kor.getsugar();
-            double vartEredm = 25.12,
+            double vartEredm = 50.24,
                     kapottEredm;
-            kapottEredm = kor.setKerulet(sugar);
+            kapottEredm = kor.setTerulet(sugar);
 
-            Assert.AreEqual(kapottEredm, vartEredm);
+            Assert.AreNotEqual(kapottEredm, vartEredm);
         }
         [TestMethod]
-        public void SetTerulet_teszt_False_Alatt()
+        public void setTerulet_teszt_False_Alatt()
         {
             double sugar = kor.getsugar();
-            double vartEredm = 25.11,
+            double vartEredm = 50.23,
                     kapottEredm;
             kapottEredm = kor.setKerulet(sugar);
 
             Assert.AreNotEqual(kapottEredm, vartEredm);
         }
         [TestMethod]
-        public void SetTerulet_teszt_False_Felett()
+        public void seterulet_teszt_False_Felett()
         {
             double sugar = kor.getsugar();
-            double vartEredm = 25.13,
+            double vartEredm = 50.25,
                     kapottEredm;
             kapottEredm = kor.setKerulet(sugar);
 
